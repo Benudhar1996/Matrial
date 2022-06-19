@@ -1,0 +1,171 @@
+							Collection
+
+Q1.  What are limitations of object Arrays?
+Q2. What are differences between arrays and collections?
+Q3. what are differences between arrays and ArrayList? 
+Q4. What are differences between arrays and Vector?
+Q5. What is Collection API ? 
+Q6.What is Collection framework? 
+Q7. What  is difference between Collections and Collection
+Q8. Explain about Collection interface? 
+Q9. Explain about List interface
+Q10.Explain about Set interface? 
+Q11.Explain about SortedSet interface? 
+Q12. Explain about NavigableSet ? 
+Q13. Explain about Queue interface?
+Q14. Explain about Map interface?
+Q15. Explain about SortedMap ?
+Q16. Explain about NavigableMap? 
+Q17.  Explain about ArrayList class? 
+Q18. What is RandomAccess Interface?
+Q19. Explain about LinkedList class? 
+Q20. Explain about Vector class?
+Q21. What is difference between ArrayList and Vector?  
+Q22. How we can get synchronized version of ArrayList? 
+Q23. What is difference between size and capacity of a Collection Object? 
+Q24. What is difference between ArrayList and Linked List ?
+Q25. What are legacy classes and interfaces present  in Collections framework ?
+Q26. what is difference Enumeration and Iterator? 
+Q27. What are limitations of Enumeration ?
+Q28. What is difference between enum and Enumeration ?
+Q29. What is difference between Iterator and ListIterator? 
+Q30. What is relation between ListIterator and Iterator? 
+Q31. Explain about HashSet class ?
+Q32. If we are trying to insert duplicate values in Set what will happen ?
+Q33. What is LinkedHashSet?
+Q34. Differences  between HashSet and LinkedHashSet?
+Q35. What are major enhancements in 1.4 version of collection frame work?
+Q36. Explain about TreeSet ??
+Q37. What are differences between List and Set interfaces?
+Q38. What is Comparable interface? 
+Q39. What is Comparator interface? 
+Q40. What are differences between Comparable and Comparator?
+Q41. What is difference between HashSet and TreeSet?
+Q42. What is Entry interface?
+Q43. Explain about HashMap? It is a Map Object which can be used used to represent a group of objects as key-value pairs. 
+Q44. Explain about LinkedHashMap 
+Q45. Differences between HashMap and LinkedHashMap ? 
+Q46. Differences between HashMap and Hashtable?
+Q47. What is IdentityHashMap? 
+Q48. What is difference between HashMap and IdentityHashMap?
+Q49. What is WeakHashMap?
+Q50. What is difference between HashMap and WeakHashMap?
+Q51. What is TreeMap? 
+Q52. What is Hashtable  ??
+Q53. What is PriorityQueue? 
+Q54. What is Arrays class?
+Q55. We are planning to do an indexed search in a list of objects. Which of the two Java collections should you use: ArrayList or LinkedList? 
+Q56. Why ArrayList is faster than Vector?  
+
+
+              					Exception Handling 
+Q1.What is an Exception? 
+Q2.What is the purpose of Exception Handling? 
+Q3.What is the meaning of Exception Handling?
+Q4.Explain Default Exception Handling Mechanism in java? 
+Q5.What is the purpose of try? 
+Q6. What is the purpose of catch block?
+Q7.  Is try with multiple catch block is possible?
+Q8. If try with multiple catch block present is order of catch blocks important in which order we have to take? 
+Q9. What are various methods to print Exception information? and differentiate them
+Q10.If an exception rised inside catch block then what will happen?
+Q11. Is it possible to take try, catch inside try block? 
+Q12.Is it possible to take try, catch inside catch block?
+Q13. Is it possible to take try without catch
+Q14. What is the purpose of finally block?
+Q15.  Is finally block will be execute always?
+Q16. In which situation finally block will not executed?
+Q17. If return statement present inside try is finally block will be executed? 
+Q18. What is the difference between final, finally and finalize()? 
+Q19. Is it possible to write any statement between try-catch and finally?
+Q20. Is it possible to take two finally blocks for the same try?
+Q21.  Is syntax try-finally-catch is valid ?
+Q22. What is the purpose of throw
+Q23.  Is it possible to throw an Error? 
+Q24.  Is it possible to throw any java object? 
+Q25. After throw is it allow to take any statement directly? 
+Q26. What is the purpose of throws
+Q27. What is the difference between throw and throws? 
+Q28.  What is the difference between throw and thrown? 
+Q29. Is it possible to use throws keyword for any java class? 
+Q30. If we are taking catch block for an exception but there is no chance of rising that exception in try then what will happen
+Q31.  Explain Exception Handling keyword?
+Q32. Which class act as root for entire java Exception hierarchy? 
+Q33. What is the difference between Error and Exception? 
+Q34.  What is difference between checked exception and unchecked exception?
+Q35.What is difference between partially checked and fully checked Exception? 
+Q36. What is a customized Exception?
+Q37. Explain the process of creating the customized Exception. 
+Q38. Explain control flow in try, catch, finally.
+Q39. Can you give the most common occurred exception in your previous project
+Q40. Explain the cases where you used Exception Handling in your previous project?
+
+
+                                    Multi Threading FAQs 
+Q1. What is Multitasking?
+Q2. What is the difference between process-based and Thread-based Multitasking?
+Q3. What is Multithreading and explain its application areas?
+Q4.What is advantage of Multithreading? 
+Q5. When compared with C++ what is the advantage in java with respect to Multithreading?
+Q6. In how many ways we can define a Thread? Among extending Thread and implementing Runnable which is recommended
+Q7. What is the difference between t.start() and t.run() method?
+Q8. Explain about Thread Scheduler
+Q9. If we are not overriding run() method what will happened?
+Q10.Is overloading of run() method is possible? 
+Q11.Is it possible to override start() method? 
+Q35. While a thread executing any synchronized method on the given object 
+is it possible to execute remaining synchronized method of the same object simultaneously by any other thread?
+Q36. What is the difference between synchronized method and static synchronized method? 
+Q37. What is the advantage of synchronized block over synchronized method?
+Q38.  What is synchronized statement? 
+Q39.  How we can declare synchronized block to get class level lock? 
+Q40.   How two thread will communicate with each other? 
+Q41.wait(), notify(), notifyAll() method can available in which class?
+Q42.Why wait(), notify(), notifyAll() method defines in object class instead of Thread class? 
+Q43.If a waiting thread got notification then it will entered into which state?
+Q44.In which method threads can release the lock?
+Q45. Explain wait(), notify(), notifyAll() method uses. 
+Q46. What is the difference between notify() and notifyAll()
+Q47. Once a Thread got the notification then which waiting thread will get chance?
+Q48.   How a thread can interrupt another thread? 
+Q49. What is DeadLock? Is it possible to resolve DeadLock situation? 
+Q50. Which keyword causes DeadLock situation?
+Q51.  How we can stop a thread explacitly?
+Q52. Explain about suspend() and resume() method?
+Q53.What is Starvation()? And Explain the difference between Deadlock and Starvation?
+Q54. What is race condition?
+Q55. What is Daemon Thread? And give an example? 
+Q56. What is the purpose of a Daemon Thread?
+Q57.  How we can check Daemon nature of a Thread?
+Q58.  Is it possible to change a Daemon nature of a Thread?
+Q59. Is main thread is Daemon or non-daemon?
+Q60. Once we created a new thread is it daemon or non-daemon. 
+Q61. After starting a thread is it possible to change Daemon nature?
+Q62. When the Daemon thread will be terminated? 
+Q63. What is green Thread?
+Q64.Explain about Thread group ??
+Q65.What is the Thread Local? 
+Q66. In your previous project where you used multithreading concept?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
